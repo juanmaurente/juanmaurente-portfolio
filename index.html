@@ -9,8 +9,10 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Exo:wght@100;300;400;500;700&family=Space+Grotesk:wght@300;400;600;700&display=swap"
 			rel="stylesheet"
 		/>
 
@@ -27,42 +29,45 @@
 		<title>Frontend Mentor | Single-page developer portfolio</title>
 	</head>
 	<body>
-		<nav class="navbar-container container">
-			<div class="navbar-logo">
-				<h3>adamkeyes</h3>
-			</div>
-			<div>
-				<span class="icon-container">
-					<svg class="icon">
-						<use
-							xlink:href="./assets/images/sprite.svg#icon-github"
-						></use>
-					</svg>
-				</span>
-				<span class="icon-container">
-					<svg class="icon">
-						<use
-							xlink:href="./assets/images/sprite.svg#icon-frontend-mentor"
-						></use>
-					</svg>
-				</span>
-				<span class="icon-container">
-					<svg class="icon">
-						<use
-							xlink:href="./assets/images/sprite.svg#icon-linkedin"
-						></use>
-					</svg>
-				</span>
-				<span class="icon-container">
-					<svg class="icon">
-						<use
-							xlink:href="./assets/images/sprite.svg#icon-twitter"
-						></use>
-					</svg>
-				</span>
-			</div>
-		</nav>
+		<div class="container">
+			<nav class="navbar-container">
+				<div class="navbar__logo">
+					<h2 class="navbar__logo--thick">Juan</h2>
+					<h2 class="navbar__logo--thin">Maurente</h2>
+				</div>
 
+				<div class="navbar__links">
+					<span class="icon-container">
+						<svg class="icon">
+							<use
+								xlink:href="./assets/images/sprite.svg#icon-github"
+							></use>
+						</svg>
+					</span>
+					<span class="icon-container">
+						<svg class="icon">
+							<use
+								xlink:href="./assets/images/sprite.svg#icon-frontend-mentor"
+							></use>
+						</svg>
+					</span>
+					<span class="icon-container">
+						<svg class="icon">
+							<use
+								xlink:href="./assets/images/sprite.svg#icon-linkedin"
+							></use>
+						</svg>
+					</span>
+					<span class="icon-container">
+						<svg class="icon">
+							<use
+								xlink:href="./assets/images/sprite.svg#icon-twitter"
+							></use>
+						</svg>
+					</span>
+				</div>
+			</nav>
+		</div>
 		<div class="container">
 			<div class="photo-container">
 				<picture>
@@ -71,7 +76,7 @@
 						srcset="./assets/images/image-profile-desktop.webp"
 					/>
 					<source media="(min-width: 768px)"
-					srcset="./assets/images/image-profile-tablet.webp"" />
+					srcset="./assets/images/image-profile-mobile.webp"" />
 					<img
 						src="./assets/images/image-profile-mobile.webp"
 						alt=""
@@ -81,45 +86,45 @@
 			<div class="card">
 				<div class="card-title">
 					<h1>
-						Nice to meet you! I’m
-						<span class="card-name">Adam Keyes.</span>
+						Hola! I’m .
+						<span class="card-name">Juan Maurente.</span>
 					</h1>
 				</div>
 				<p class="card-description">
-					Based in the UK, I’m a front-end developer passionate about
-					building accessible web apps that users love.
+					As a Junior Full-Stack Developer based in Sydney, I'm always
+					exploring new technologies to build modern and responsive
+					web applications.
 				</p>
 				<button class="card-button">
 					<a href="">Contact me</a>
 				</button>
 			</div>
 		</div>
-
 		<section class="container" data-aos="fade-up">
 			<div class="experience-container grid">
 				<div class="experience-item">
+					<h2>Java</h2>
+					<p>3 Years Experience</p>
+				</div>
+				<div class="experience-item">
+					<h2>GitHub</h2>
+					<p>3 Years Experience</p>
+				</div>
+				<div class="experience-item">
 					<h2>HTML</h2>
-					<p>4 Years Experience</p>
+					<p>3 Years Experience</p>
 				</div>
 				<div class="experience-item">
 					<h2>CSS</h2>
-					<p>4 Years Experience</p>
+					<p>2 Years Experience</p>
 				</div>
 				<div class="experience-item">
 					<h2>JavaScript</h2>
-					<p>4 Years Experience</p>
-				</div>
-				<div class="experience-item">
-					<h2>Accessibility</h2>
-					<p>4 Years Experience</p>
-				</div>
-				<div class="experience-item">
-					<h2>React</h2>
 					<p>3 Years Experience</p>
 				</div>
 				<div class="experience-item">
-					<h2>Sass</h2>
-					<p>3 Years Experience</p>
+					<h2>React.js</h2>
+					<p>1 Year Experience</p>
 				</div>
 			</div>
 		</section>
